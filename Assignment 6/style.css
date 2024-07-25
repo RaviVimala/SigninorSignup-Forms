@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: rgb(252, 223, 189);
+    background-image: url("Frame.png");
+    background-size: cover;
+    background-blend-mode: color-burn;
+    width: 50,80;
+}
+
+
+.Main nav{
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.Main nav a{
+    text-decoration: none;
+    color: var(--nav-font-color);
+    text-transform: uppercase;
+    word-spacing:10%;
+    font-weight: 600;
+    margin: 1em;
+    }
+    .App{
+        font-style: oblique;
+        font-size: larger;
+
+        text-decoration-color: darkred;
+    }
+.form-list{
+    display: flex;
+    list-style-type:none;
+}
+
+.Links{
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    
+}
